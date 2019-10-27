@@ -1,0 +1,22 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "bundle": "node ./vueBundler.js",
+    "make:component": "node ./commands/createComponent.js",
+    "make:scss": "node ./commands/createScss.js"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}

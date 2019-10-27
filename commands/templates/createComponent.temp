@@ -1,0 +1,26 @@
+<template>
+	<div>
+		Hello world
+	</div>
+</template>
+
+<script>
+module.exports = {
+	mounted: function() {
+
+		console.log("{componentName} mounted");
+	},
+
+	methods: {
+	
+	},
+
+	data: function () {
+		return {
+
+		}
+	}
+}
+</script>
+
+<style src="css/components/{componentName}.css"></style>

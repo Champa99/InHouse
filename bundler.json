@@ -1,0 +1,5 @@
+{
+	"rootPath": "./",
+	"entryScript": "./scripts/app.js",
+	"bundleScript": "./scripts/app-bundle.js"
+}
